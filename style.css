@@ -51,13 +51,17 @@ button{
     right: 6rem;
     bottom: 8rem;
 }
+.cards{
+    position: absolute;
+    left: 7rem;
+}
 .card {
     width: 231px;
     height: 282px;
     border-radius: 30px;
     background: #212121;
     margin-top: 10rem;
-    margin-left: 46px;
+    margin-left: 108px;
     margin-bottom: 30px;
     display: inline-block;
     }
@@ -90,4 +94,13 @@ button:hover{
 li:hover{
     color: #FD2E4A;
     transition: 0.5s ease-in-out;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+    background-color: gray;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #FD2E4A;
+    border-radius: 10px;
 }
