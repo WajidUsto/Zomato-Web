@@ -27,7 +27,7 @@ a{
 nav img{
     width: 16rem;
 }
-button{
+.button{
     padding: 11px 25px;
     border-radius: 30px;
     color: white;
@@ -44,12 +44,14 @@ button{
     font-size: 3.5rem;
     margin: 0 20px;
     display: inline-block;
+    cursor: pointer;
 }
 .container-img{
     display: inline-block;
     position: absolute;
     right: 6rem;
     bottom: 8rem;
+    cursor: pointer;
 }
 .cards{
     position: absolute;
@@ -64,17 +66,20 @@ button{
     margin-left: 108px;
     margin-bottom: 30px;
     display: inline-block;
+    cursor: pointer;
     }
 .cards h4{
     margin-left: 65px;
     margin-top: -20px;
     font-size: 22px;
     color: white;
+    cursor: pointer;
 }
 .img3{
     width: 175px;
     margin-left: 33px;
     margin-bottom: 14px;
+    
 }
 .cards p{
     margin-left: 66px;
@@ -86,7 +91,7 @@ button{
     transform: scale(1.08);
     transition: 0.5s ease-in-out;
 }
-button:hover{
+.button:hover{
     background-color: black;
     border: 1px solid white;
     transition: 0.4s ease-in-out;
@@ -103,4 +108,9 @@ li:hover{
 ::-webkit-scrollbar-thumb{
     background-color: #FD2E4A;
     border-radius: 10px;
+}
+.card:hover{
+    transform: scale(1.02);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
 }
