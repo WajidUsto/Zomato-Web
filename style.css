@@ -51,6 +51,28 @@ button{
     right: 6rem;
     bottom: 8rem;
 }
+.card {
+    width: 231px;
+    height: 282px;
+    border-radius: 30px;
+    background: #212121;
+    margin-top: 10rem;
+    margin-left: 46px;
+    margin-bottom: 30px;
+    display: inline-block;
+    }
+.cards h4{
+    margin-left: 65px;
+    margin-top: -20px;
+    font-size: 22px;
+    color: white;
+}
+.cards p{
+    margin-left: 66px;
+    margin-top: 2px;
+    font-size: 17px;
+    color: white;
+}
 .container-img img:hover{
     transform: scale(1.08);
     transition: 0.5s ease-in-out;
