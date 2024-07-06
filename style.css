@@ -27,3 +27,15 @@ a{
 nav img{
     width: 16rem;
 }
+button{
+    padding: 11px 25px;
+    border-radius: 30px;
+    color: white;
+    background-color: #FD2E4A;
+    border: none;
+    position: relative;
+    left: 70rem;
+    bottom: 7rem;
+    font-size: 19px;
+    cursor: pointer;
+}
